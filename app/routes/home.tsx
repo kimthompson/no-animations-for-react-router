@@ -1,7 +1,6 @@
 import type { Route } from "./+types/home";
 import { Welcome } from "../welcome/welcome";
 import TestGSAP from '../components/TestGSAP'
-// import TestGSAP from '../components/TestGSAP2.tsx'
 
 export function meta({}: Route.MetaArgs) {
   return [

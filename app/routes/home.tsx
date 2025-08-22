@@ -1,5 +1,7 @@
 import type { Route } from "./+types/home";
 import { Welcome } from "../welcome/welcome";
+import TestGSAP from '../components/TestGSAP'
+// import TestGSAP from '../components/TestGSAP2.tsx'
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -9,5 +11,14 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return <Welcome />;
+
+  return (
+    <>
+      {/* <div  */}
+      {/*   className="w-40 h-40 bg-pink-500" */}
+      {/*   onClick={() => console.log('clicked')} */}
+      {/* ></div> */}
+      <TestGSAP />
+    </>
+  );
 }
